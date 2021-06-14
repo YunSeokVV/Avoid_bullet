@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <translate
+
+        android:duration="4000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="1200"
+        android:toYDelta="1000" />
+
+    <!--
+       fromXDelta : 이동시작위치
+       fromYDelta : 이동 완료위치
+
+       fromXScale : X 의 시작위치
+       toXScale : X 의 종료 위치
+
+       fromYscale : Y 의 시작위치
+       toYScale : Y 의 종료 위치
+
+       duration : 동작하는시간 ms 단위
+
+       startOffset : 시작하는 시간을 설정.
+
+         -->
+
+
+    <!--
+     fromDegrees : 시작각도. 현재 각을 설정한다.
+     toDegrees : 종료각도
+
+        -->
+</set>
+
+

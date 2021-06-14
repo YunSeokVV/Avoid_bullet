@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avoid_bullet">
+    <!-- camera, gallery -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false
+"
+        android:icon="@drawable/icon"
+        android:label="총알 zz피하기"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".chracter_select">
+
+        </activity>
+
+        <activity android:name=".in_game">
+
+        </activity>
+
+        <activity android:name=".my_profile">
+
+        </activity>
+
+        <activity android:name=".score_screen">
+
+        </activity>
+
+        <activity android:name=".lose_game">
+
+        </activity>
+
+        <activity android:name=".experiment">
+
+        </activity>
+
+        <activity android:name=".login_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".make_id">
+
+        </activity>
+
+        <activity android:name=".notice_board">
+
+        </activity>
+
+        <activity android:name=".writting_board">
+
+        </activity>
+
+        <activity android:name=".see_board">
+
+    </activity>
+
+        <activity
+            android:name=".pause_game" android:theme="@android:style/Theme.Translucent">
+        </activity>
+
+        <activity android:name=".edit_board">
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>
